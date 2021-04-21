@@ -9,8 +9,30 @@ This repository contains scripts to manage content translations. For a number of
 
 ## Getting Started
 **Requirements**
-* [Python](https://www.python.org/downloads/)
-* [virtualenv](https://docs.python.org/3/tutorial/venv.html)
+1. Install [Python](https://www.python.org/downloads/)
+2. Download a copy of this repository and unzip
+3. From your command line, navigate to where you saved this repository
+```
+cd path-to-repo/content-translation/
+```
+
+4. Create a virtual environment, so the dependencies you install are specific to this project and not globally for your computer
+    a. To create a virtual environment, run the following command:
+
+```
+python -m venv venv
+```
+This will create a a `venv` directory in your `content-translation` directory.
+
+5. Activate the virtual environment
+```
+source venv/bin/activate
+```
+6. Run the automations
+7. When you are done, deactivate the virtual environment
+```
+deactivate
+```
 
 **What do you want to do?**
 * <a href="#Auto-translations">Auto-translations</a>
